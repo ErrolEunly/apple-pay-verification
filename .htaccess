@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^\.well-known/apple-developer-merchantid-domain-association$ /apple-developer-merchantid-domain-association [L,R=301]
