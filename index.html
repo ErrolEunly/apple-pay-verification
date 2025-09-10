@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Domain Verification</title>
+</head>
+<body>
+    <script>
+        // Redirect /.well-known/apple-developer-merchantid-domain-association to the file
+        if (window.location.pathname === '/.well-known/apple-developer-merchantid-domain-association') {
+            // Serve the verification content
+            document.body.innerHTML = '7B2270737049644223A22383033346423345304643346434634433442346434353464363134353532333236343433363333323235343533303394433030353414344634463846534553233413';
+            document.body.style.fontFamily = 'monospace';
+        }
+    </script>
+</body>
+</html>
